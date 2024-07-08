@@ -23,18 +23,19 @@ body {
 
 /* Header styles */
 header {
-    background: linear-gradient(to bottom, #333, #555);
-    color: #fff;
-    padding: 10px 0;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
 }
 
 header h1 {
   font-size: 24px;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
+/* Navigation styles */
 nav ul {
   list-style-type: none;
   text-align: center;
@@ -55,48 +56,9 @@ nav ul li a {
   transition: all 0.3s ease;
 }
 
-/* Change navigation bar background color to blue */
-.navbar {
-  overflow: hidden;
-  background-color: #0056b3; /* Blue background */
-}
-
-/* Change navigation link hover color to darker red */
-.navbar a:hover {
-  background-color: #b30000; /* Darker red */
-}
-
-/* Change active navigation link color to white */
-.navbar a.active {
+nav ul li a.active {
   background-color: #ffffff; /* White */
   color: #0056b3; /* Blue text */
-}
-
-/* Search form styles */
-.search-form {
-    margin-top: 10px;
-    text-align: center;
-}
-
-.search-form input[type="text"] {
-    padding: 8px;
-    width: 200px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.search-form button {
-    padding: 8px 16px;
-    background-color: #0056b3; /* Blue */
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.search-form button:hover {
-    background-color: #004080; /* Darker blue */
 }
 
 /* Main styles */
@@ -132,13 +94,13 @@ main {
 
 /* Footer styles */
 footer {
-    background: linear-gradient(to top, #333, #555);
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 /* Responsive adjustments */
@@ -152,4 +114,78 @@ footer {
     display: block;
     margin: 10px 0;
   }
+}
+
+/* Additional styles for new elements */
+
+/* Search form */
+.search-form {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.search-form input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.search-form button {
+  padding: 10px 20px;
+  background-color: #0056b3; /* Blue */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.search-form button:hover {
+  background-color: #004080; /* Darker blue */
+}
+
+/* Social media icons */
+.social-icons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.social-icons a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #333;
+  color: #fff;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  margin: 0 10px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.social-icons a:hover {
+  background-color: #0056b3; /* Darker blue */
+}
+
+/* Contact button */
+.contact-button {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: #0056b3; /* Blue */
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #004080; /* Darker blue */
 }
