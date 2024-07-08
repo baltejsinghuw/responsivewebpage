@@ -36,10 +36,16 @@ header h1 {
 }
 
 /* Navigation styles */
+nav {
+  background-color: #0056b3; /* Blue background */
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
 nav ul {
   list-style-type: none;
-  text-align: center;
-  margin: 10px 0;
+  margin: 0;
   padding: 0;
 }
 
@@ -64,13 +70,6 @@ nav ul li a.active {
 /* Main styles */
 main {
   padding: 20px;
-}
-
-.hero img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin: 0 auto;
 }
 
 .content {
@@ -114,78 +113,4 @@ footer {
     display: block;
     margin: 10px 0;
   }
-}
-
-/* Additional styles for new elements */
-
-/* Search form */
-.search-form {
-  margin-top: 20px;
-  text-align: center;
-}
-
-.search-form input[type="text"] {
-  padding: 10px;
-  width: 300px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-}
-
-.search-form button {
-  padding: 10px 20px;
-  background-color: #0056b3; /* Blue */
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
-  transition: background-color 0.3s ease;
-}
-
-.search-form button:hover {
-  background-color: #004080; /* Darker blue */
-}
-
-/* Social media icons */
-.social-icons {
-  margin-top: 20px;
-  text-align: center;
-}
-
-.social-icons a {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  background-color: #333;
-  color: #fff;
-  font-size: 20px;
-  line-height: 40px;
-  text-align: center;
-  margin: 0 10px;
-  border-radius: 50%;
-  transition: background-color 0.3s ease;
-}
-
-.social-icons a:hover {
-  background-color: #0056b3; /* Darker blue */
-}
-
-/* Contact button */
-.contact-button {
-  display: block;
-  width: 200px;
-  margin: 20px auto;
-  text-align: center;
-  background-color: #0056b3; /* Blue */
-  color: #fff;
-  font-size: 16px;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
-
-.contact-button:hover {
-  background-color: #004080; /* Darker blue */
 }
